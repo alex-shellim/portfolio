@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
+
+a,
+a:visited{
+  text-decoration: none;
+  color:#000000;
+}
+
+h1,
+h2,
+h3
+{font-weight:500;}
+
+body{
+  box-sizing: border-box;
+  color:#000000;
+  font-family:monospace;
+  font-family: 'Rubik', sans-serif;
+  font-weight:400;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  height:80px;
+  padding:0 80px;
+  align-items: center;
+}
+
+.logo{
+  max-height:40px;
+}
+
+a.page-link{
+  margin-left:30px;
+  display:inline-block;
+  font-weight:500;
+}
+
+.App {
+}
+
+.page-content{
+  padding:80px;
+}
