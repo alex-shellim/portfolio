@@ -12,7 +12,7 @@ function App() {
       <div className="App">
 
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo Image" />
+          <img src={logo} className="logo"/>
           <div className="navigation-links">
             <Link to="/About" className="page-link">About</Link>
             <Link to="/Work" className="page-link">Work</Link>
