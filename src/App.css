@@ -41,6 +41,7 @@ p{
   align-items: center;
   position:sticky;
   top:0;
+  background:#ffffff;
 }
 
 .logo{
@@ -107,8 +108,38 @@ a.page-link:hover,
   flex-basis:0;
 }
 
+.about-image{
+  padding-left:40px;
+}
+
 img.about-image{
-  max-width:320px;
+  width:100%;
+  max-width:260px;
   margin:auto;
   display:block;
+}
+
+/* work styling */
+
+.thumbnail-gallery{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project{
+  flex:0 50%;
+  max-width:49%;
+  margin-bottom:60px;
+}
+
+.project-image{
+  background-color:#f6f6f6;
+}
+
+.project-title{
+  margin:16px 0 8px;;
+  font-size:1.6rem;
+  font-weight:500;
+  font-family: 'Rubik', sans-serif;
 }
