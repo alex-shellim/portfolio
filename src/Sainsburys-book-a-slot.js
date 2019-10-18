@@ -149,7 +149,7 @@ function SainsburysBookASlot(props) {
             <h2>Redesigning mobile for accessibility</h2>
             <p>While the desktop and mobile book a slot grid was in development our app team released a similar design on iOS. Shortly afterwards we recieved feedback that users who rely on screen readers were now having difficulty booking a delivery as it was no longer compatible with voiceover.</p>
             <p>Working closely with our Accessibility Manager we carried out further testing and concluded that the mobile grid view should be completely redesigned with accessibility in mind.</p>
-            <p>The accessible mobile design would should address the following:</p>
+            <p>The accessible mobile design would address the following:</p>
               <div class="hypothesis-matrix">
                       <div>
                       <h3>Problem</h3>
