@@ -3,12 +3,13 @@ import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import thumbSainsburysPdp from './images/work-thumbs/thumb-sainsburys-pdp.jpg';
 import thumbSainsburysDelivery from './images/work-thumbs/thumb-sainsburys-delivery.jpg';
 import thumbBuzzOnboarding from './images/work-thumbs/thumb-buzz-onboarding.jpg';
-import './App.css';
+import './styling/App.css';
+import './styling/Work.css';
 
 function Work(props) {
   return (
     // Render a Thumbnail component
-    <div>
+    <div className="page-content--non-project">
       <h1>Work</h1>
       <div class="thumbnail-gallery">
         <Thumbnail

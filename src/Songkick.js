@@ -1,6 +1,6 @@
 import React from 'react';
 // import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import './App.css';
+import './styling/App.css';
 
 function Songkick(props) {
   return (

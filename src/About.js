@@ -1,9 +1,11 @@
 import React from "react"
 import meImage from './images/me.png';
+import './styling/App.css';
+import './styling/About.css';
 
 function About(props) {
   return (
-    <div>
+    <div className="page-content--non-project">
       <h1>About</h1>
       <div class="about-me">
         <div class="about-text">

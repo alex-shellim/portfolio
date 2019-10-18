@@ -1,0 +1,88 @@
+/* project hero background colours */
+
+.sainsburys-book{
+  background-color:#F26C01;
+}
+
+/* image block background colours */
+.dark{
+  background-color:#222222;
+}
+
+h3{
+  margin:0;
+}
+
+.page-content--project{
+  padding:0
+}
+
+.hero{
+  width:100%;
+}
+
+.hero img{
+  width:100%;
+  max-width:1000px;
+  margin:auto;
+  display:block;
+  padding:10px 0;
+}
+
+.project-content{
+  padding:20px 80px;
+  padding-bottom:0;
+}
+
+.project-overview{
+  /* margin:60px 0; */
+}
+
+.text-block{
+  /* max-width:800px; */
+  margin:60px 0;
+}
+
+.hypothesis-matrix{
+  display:flex;
+  justify-content: space-between;
+  padding:40px 0;
+  border-bottom:1px solid #d8d8d8;
+}
+
+.hypothesis-matrix:last-of-type{
+  border-bottom:none;
+}
+
+.hypothesis-matrix div{
+  flex:0 32%;
+}
+
+.project-image-wrap{
+  margin:60px 0
+}
+
+.project-page-image img{
+  width:100%;
+  max-width:800px;
+  padding:20px 0;
+  display:block;
+  margin:auto;
+}
+
+.project-page-image.full-width img{
+  max-width:100%;
+}
+
+.caption{
+  font-size:14px;
+  color:#7A7A7A;
+  font-weight:400;
+  display:block;
+  margin-top:10px;
+}
+
+.hero-caption{
+  padding:0 80px;
+  margin-top:10px;
+}

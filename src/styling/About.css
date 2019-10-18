@@ -1,0 +1,22 @@
+/* about me styling */
+
+.about-me{
+  display:flex;
+}
+
+.about-text,
+.about-image{
+  flex-grow: 1;
+  flex-basis:0;
+}
+
+.about-image{
+  padding-left:40px;
+}
+
+img.about-image{
+  width:100%;
+  max-width:260px;
+  margin:auto;
+  display:block;
+}

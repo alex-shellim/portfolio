@@ -13,21 +13,26 @@ a,
 a:visited{
   text-decoration: none;
   color:#000000;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
 }
 
 a,
 a.body-link{
   text-decoration:underline;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
 }
 
+h0,
 h1,
 h2,
 h3
 {
   font-weight:500;
   font-family: 'Rubik', sans-serif;
+}
+
+h0{
+  font-size:3rem;
 }
 
 p{
@@ -55,13 +60,13 @@ a.home-link{
   border-bottom:4px solid #000000;
   font-size:1.6rem;
   font-family: 'Rubik', sans-serif;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
   text-decoration: none;
 }
 
 a.home-link:hover{
   background:#35FFC4;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
 }
 
 a.page-link{
@@ -70,7 +75,7 @@ a.page-link{
   font-weight:500;
   font-family: 'Rubik', sans-serif;
   padding:0 2px;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
   font-size:1.6rem;
   text-decoration: none;
 }
@@ -79,7 +84,7 @@ a:hover,
 a.page-link:hover,
 .body-link:hover{
   background:#35FFC4;
-  transition: ease-in all 0.4s;
+  transition: ease-in all 0.2s;
 }
 
 .App {
@@ -97,77 +102,6 @@ a.page-link:hover,
   margin-top:-80px;
 }
 
-.page-content{
+.page-content--non-project{
   padding:60px 80px;
-}
-
-/* about me styling */
-
-.about-me{
-  display:flex;
-}
-
-.about-text,
-.about-image{
-  flex-grow: 1;
-  flex-basis:0;
-}
-
-.about-image{
-  padding-left:40px;
-}
-
-img.about-image{
-  width:100%;
-  max-width:260px;
-  margin:auto;
-  display:block;
-}
-
-/* work styling */
-
-.thumbnail-gallery{
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.project{
-  flex:0 50%;
-  max-width:49%;
-  margin-bottom:60px;
-}
-
-.project-image img{
-  width:100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  transition: ease-in all 0.4s;
-}
-
-.project:hover .project-image img{
-  width:100%;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  transition: ease-in all 0.4s;
-}
-
-.project-title{
-  margin:16px 0 8px;;
-  font-size:1.6rem;
-  font-weight:500;
-  font-family: 'Rubik', sans-serif;
-  transition: ease-in all 0.4s;
-}
-
-.project-title span,
-.project-category span{
-  transition: ease-in all 0.4s;
-}
-
-
-.project:hover .project-title span,
-.project:hover .project-category span{
-  background:#35FFC4;
-  transition: ease-in all 0.4s;
 }

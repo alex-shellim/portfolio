@@ -5,9 +5,8 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Welcome from './Welcome.js';
 import About from './About.js';
 import Work from './Work.js';
-import Songkick from './Songkick.js';
-import Sainsburys from './Sainsburys.js';
-import './App.css';
+import SainsburysBookASlot from './Sainsburys-book-a-slot.js';
+import './styling/App.css';
 
 function App() {
   return (
@@ -28,8 +27,11 @@ function App() {
        <Route exact path="/" component={Welcome} />
        <Route path="/About" component={About} />
        <Route path="/Work" component={Work} />
-       <Route path="/Songkick" component={Songkick} />
-       <Route path="/Sainsburys" component={Sainsburys} />
+      </div>
+
+      <div className="page-content--project">
+        {/* Set up the Router*/}
+       <Route path="/Sainsburys-book-a-slot" component={SainsburysBookASlot} />
       </div>
 
     </div>
