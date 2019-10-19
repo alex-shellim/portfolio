@@ -7,6 +7,8 @@ import Hero from './images/project/sainsburys-book/sainsburys-book-hero.jpg';
 import currentDesign from './images/project/sainsburys-book/sainsburys-book-current.png';
 import versionOne from './images/project/sainsburys-book/sainsburys-book-v1.png';
 import userHeatmaps from './images/project/sainsburys-book/sainsburys-book-user-heatmaps.jpg';
+import mobile1 from './images/project/sainsburys-book/sainsburys-book-mobile-1.png';
+import mobile2 from './images/project/sainsburys-book/sainsburys-book-mobile-2.png';
 
 function SainsburysBookASlot(props) {
   return (
@@ -193,6 +195,19 @@ function SainsburysBookASlot(props) {
                       </div>
               </div>
           </div>
+        </div>
+        <div class="hero dark">
+          <div class="image-flex">
+            <div class="flex-image">
+              <img src={mobile1}></img>
+            </div>
+            <div class="flex-image">
+              <img src={mobile2}></img>
+            </div>
+          </div>
+        </div>
+        <div class="hero-caption">
+          <span class="caption">Designed for accessibility</span>
         </div>
     </div>
   )

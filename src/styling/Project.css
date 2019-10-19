@@ -29,6 +29,10 @@ h3{
   padding:10px 0;
 }
 
+.sainsburys-book.hero img{
+  max-width:860px;
+}
+
 .project-content{
   padding:20px 80px;
   padding-bottom:0;
@@ -85,4 +89,17 @@ h3{
 .hero-caption{
   padding:0 80px;
   margin-top:10px;
+}
+
+.hero.dark .image-flex{
+  display:flex;
+  width:100%;
+  max-width:1000px;
+  justify-content: space-between;
+  margin:auto;
+  padding:40px 0;
+}
+
+.flex-image{
+  flex:0 49.6%;
 }
